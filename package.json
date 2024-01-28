@@ -1,9 +1,9 @@
 {
-  "name": "shopping-cart",
+  "name": "shop-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://asiill.github.io/shopping-cart",
+  "homepage": "https://asiill.github.io/shop-template",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

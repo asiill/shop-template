@@ -8,20 +8,20 @@ import ErrorPage from "./pages/ErrorPage.jsx";
 const Router = () => {
     const router = createBrowserRouter([
         {
-            path: "/",
+            path: "/shop-template/",
             element: <Home />,
             errorElement: <ErrorPage />,
         },
         {
-            path: "/shop",
+            path: "/shop-template/shop",
             element: <Shop />,
         },
         {
-            path: "/shop/:itemId",
+            path: "/shop-template/shop/:itemId",
             element: <ItemInfo />,
         },
         {
-            path: "/cart",
+            path: "/shop-template/cart",
             element: <Cart />
         },
     ]);
