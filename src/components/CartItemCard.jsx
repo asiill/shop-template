@@ -1,4 +1,4 @@
-const CartItem = (name, price, quantity) => {
+const CartItemCard = (name, price, quantity) => {
     reutrn (
         <>
             <p>name</p>
@@ -8,4 +8,4 @@ const CartItem = (name, price, quantity) => {
     );
 };
 
-export default CartItem;
+export default CartItemCard;

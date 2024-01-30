@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <h1>Welcome</h1>
-            <Link to = {"/shop"}>
+            <Link to = {"/shop-template/shop"}>
                 <button>Shop now</button>
             </Link>
         </>

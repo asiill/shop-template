@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Item = (id, name, price) => {
+const ItemCard = (id, name, price) => {
     return (
         <div>
             <p>{name}</p>
@@ -10,4 +10,4 @@ const Item = (id, name, price) => {
     );
 };
 
-export default Item;
+export default ItemCard;
