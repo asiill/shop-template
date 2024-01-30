@@ -1,8 +1,12 @@
+import React from "react";
+import { useParams } from "react-router-dom";
+
 const Item = () => {
+    const { id } = useParams();
     return (
-        <>
-            <h1>Item</h1>
-        </>
+        <section>
+            <h1>Item {id}</h1>
+        </section>
     )
 };
 

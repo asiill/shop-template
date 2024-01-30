@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/Header.css";
 
 const Header = () => {
     return (
-        <>
+        <header>
             <div className="logo-wrapper">
                 <Link to="/shop-template/">
-                    <h1>Logo</h1>
+                    Logo
                 </Link>
             </div>
             <div className="nav-links">
@@ -26,7 +27,7 @@ const Header = () => {
                     Contact
                 </Link>
             </div>
-        </>
+        </header>
     );
 };
 
