@@ -3,10 +3,22 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 2em;
+    padding: 4rem;
 }
 
 .nav-links {
     display: flex;
-    gap: 1em;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
 }

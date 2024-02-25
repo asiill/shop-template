@@ -23,6 +23,9 @@ const Header = () => {
                 <Link to="/shop-template/shop">
                     Shop
                 </Link>
+                <Link to="/shop-template/cart">
+                    Cart
+                </Link>
                 <Link to="/shop-template/contact">
                     Contact
                 </Link>
